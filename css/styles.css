@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 11, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -17,14 +17,14 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 23, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 body {
   margin: 0; }
 
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 31, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 31, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 main {
   display: block; }
 
@@ -32,7 +32,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 40, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 40, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -43,7 +43,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 53, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 53, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -56,7 +56,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 64, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 64, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -68,7 +68,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 76, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 76, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 a {
   background-color: transparent; }
 
@@ -76,7 +76,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 85, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 85, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -88,7 +88,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 95, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 95, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: bolder; }
@@ -97,7 +97,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 105, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 105, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 code,
 kbd,
 samp {
@@ -109,7 +109,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 116, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 116, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 small {
   font-size: 80%; }
 
@@ -117,7 +117,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 125, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 125, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -125,11 +125,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 133, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 133, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 137, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 137, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 sup {
   top: -0.5em; }
 
@@ -138,7 +138,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 148, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 148, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 img {
   border-style: none; }
 
@@ -148,7 +148,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 160, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 160, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -167,7 +167,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 176, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 176, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -177,7 +177,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 186, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 186, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -186,7 +186,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 195, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 195, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -196,7 +196,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 206, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 206, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -207,7 +207,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 218, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 218, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -217,7 +217,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 229, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 229, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em; }
 
@@ -227,7 +227,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 240, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 240, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -245,14 +245,14 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 253, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 253, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 progress {
   vertical-align: baseline; }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 261, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 261, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -260,7 +260,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 270, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 270, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -271,7 +271,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 280, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 280, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -280,7 +280,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 290, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 290, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -290,7 +290,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 299, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 299, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
@@ -298,7 +298,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 308, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 308, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -310,14 +310,14 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 320, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 320, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 details {
   display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
-/* line 328, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 328, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 summary {
   display: list-item; }
 
@@ -326,37 +326,37 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 339, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 339, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 template {
   display: none; }
 
 /**
  * Add the correct display in IE 10.
  */
-/* line 347, E:/Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
+/* line 347, ../Github/techdegree/techdegree-project-04/scss/base/_normalize.scss */
 [hidden] {
   display: none; }
 
-/* line 1, E:/Github/techdegree/techdegree-project-04/scss/base/_base.scss */
+/* line 1, ../Github/techdegree/techdegree-project-04/scss/base/_base.scss */
 * {
   box-sizing: border-box; }
 
-/* line 14, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 14, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__row {
   padding: 1em 10px;
   display: flex;
   flex-direction: column;
   border: 1px solid red; }
   @media (min-width: 768px) {
-    /* line 14, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 14, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__row {
       flex-direction: row; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--1 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--1.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -365,20 +365,20 @@ template {
     padding: 15px 0;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--1 {
       margin-top: 0;
       flex-basis: 8.33333%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--1.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--2 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--2.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -387,20 +387,20 @@ template {
     padding: 15px 0;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--2 {
       margin-top: 0;
       flex-basis: 16.66667%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--2.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--3 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--3.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -410,20 +410,20 @@ template {
     background-color: #deb2ee;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--3 {
       margin-top: 0;
       flex-basis: 25%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--3.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--4 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--4.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -433,20 +433,20 @@ template {
     background-color: #7ee6fd;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--4 {
       margin-top: 0;
       flex-basis: 33.33333%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--4.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--5 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--5.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -456,20 +456,20 @@ template {
     background-color: #88d9a0;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--5 {
       margin-top: 0;
       flex-basis: 41.66667%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--5.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--6 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--6.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -479,20 +479,20 @@ template {
     background-color: #3fabca;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--6 {
       margin-top: 0;
       flex-basis: 50%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--6.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--7 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--7.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -502,20 +502,20 @@ template {
     background-color: #ec9fa3;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--7 {
       margin-top: 0;
       flex-basis: 58.33333%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--7.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--8 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--8.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -525,20 +525,20 @@ template {
     background-color: #fd9f85;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--8 {
       margin-top: 0;
       flex-basis: 66.66667%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--8.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--9 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--9.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -547,20 +547,20 @@ template {
     padding: 15px 0;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--9 {
       margin-top: 0;
       flex-basis: 75%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--9.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--10 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--10.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -569,20 +569,20 @@ template {
     padding: 15px 0;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--10 {
       margin-top: 0;
       flex-basis: 83.33333%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--10.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--11 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--11.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -591,20 +591,20 @@ template {
     padding: 15px 0;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--11 {
       margin-top: 0;
       flex-basis: 91.66667%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--11.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 .grid__col--12 {
   margin-top: 10px;
   flex-basis: 100%; }
-  /* line 37, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+  /* line 37, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
   .grid__col--12.theme__colors {
     font-weight: bolder;
     border-radius: 5px;
@@ -614,24 +614,24 @@ template {
     background-color: #80e8d1;
     padding-left: 15px; }
   @media (min-width: 768px) {
-    /* line 35, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 35, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     .grid__col--12 {
       margin-top: 0;
       flex-basis: 100%; }
-      /* line 51, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+      /* line 51, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
       .grid__col--12.centered {
         text-align: center;
         margin: 0 auto; } }
 
-/* line 67, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+/* line 67, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
 [class^=grid__col] {
   border: 1px dashed green; }
   @media (min-width: 768px) {
-    /* line 70, E:/Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
+    /* line 70, ../Github/techdegree/techdegree-project-04/scss/components/_grid.scss */
     [class^=grid__col] + [class^=grid__col] {
       margin-left: 10px; } }
 
-/* line 1, E:/Github/techdegree/techdegree-project-04/scss/components/_typography.scss */
+/* line 1, ../Github/techdegree/techdegree-project-04/scss/components/_typography.scss */
 .container {
   font-family: "Lato", sans-serif;
   color: #858585;
@@ -639,25 +639,26 @@ template {
   width: 90%;
   margin: 0 auto; }
 
-/* line 9, E:/Github/techdegree/techdegree-project-04/scss/components/_typography.scss */
+/* line 9, ../Github/techdegree/techdegree-project-04/scss/components/_typography.scss */
 .headline--primary {
   color: #58e1c1;
   font-weight: bolder;
   padding-left: 20px;
   padding-right: 60px; }
 
-/* line 16, E:/Github/techdegree/techdegree-project-04/scss/components/_typography.scss */
+/* line 16, ../Github/techdegree/techdegree-project-04/scss/components/_typography.scss */
 .headline--secondary {
   font-weight: 300;
+  margin: 20px 0;
   font-size: 18px; }
 
-/* line 21, E:/Github/techdegree/techdegree-project-04/scss/components/_typography.scss */
+/* line 22, ../Github/techdegree/techdegree-project-04/scss/components/_typography.scss */
 .link {
   text-decoration: none;
   font-weight: bold;
   color: #5adffc; }
 
-/* line 27, E:/Github/techdegree/techdegree-project-04/scss/components/_typography.scss */
+/* line 28, ../Github/techdegree/techdegree-project-04/scss/components/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-style: italic;
@@ -666,22 +667,26 @@ template {
   border-left: 10px solid #58e1c1;
   padding-left: 20px; }
 
-/* line 1, E:/Github/techdegree/techdegree-project-04/scss/components/_forms.scss */
+/* line 1, ../Github/techdegree/techdegree-project-04/scss/components/_forms.scss */
+.form {
+  margin: 0 auto; }
+
+/* line 5, ../Github/techdegree/techdegree-project-04/scss/components/_forms.scss */
 .form__input {
+  display: block;
   border: none;
   border-bottom: 4px solid #58e1c1;
-  width: 100%;
+  width: 95%;
   font-weight: bolder;
-  margin-top: 25px;
+  margin: 20px auto 0 auto;
   padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding-left: 10px; }
 
-/* line 12, E:/Github/techdegree/techdegree-project-04/scss/components/_forms.scss */
+/* line 17, ../Github/techdegree/techdegree-project-04/scss/components/_forms.scss */
 .form__label--hidden {
   display: none; }
 
-/* line 2, E:/Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
+/* line 2, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
 [class^=btn--] {
   font-weight: bolder;
   border-radius: 5px;
@@ -690,82 +695,79 @@ template {
   padding: 15px 0;
   color: white;
   text-transform: uppercase;
-  margin: 10px 0; }
+  margin: 20px 0; }
 
-/* line 10, E:/Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
+/* line 10, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
 .btn--default {
   background-color: #51ddfc; }
 
-/* line 10, E:/Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
+/* line 10, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
 .btn--success {
   background-color: #63cc82; }
 
-/* line 10, E:/Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
+/* line 10, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
 .btn--error {
   background-color: #e4757a; }
 
-/* line 10, E:/Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
+/* line 10, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
 .btn--warning {
   background-color: #fd7856; }
 
-/* line 10, E:/Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
+/* line 10, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
 .btn--info {
   background-color: #927bc1; }
 
 @media (min-width: 768px) {
-  /* line 16, E:/Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
+  /* line 16, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
   .grid__col--12 {
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
-    /* line 20, E:/Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
+    /* line 20, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
     .grid__col--12 [class^=btn--] {
       margin: 0 20px; } }
 
-/* line 1, E:/Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
+/* line 1, ../Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
 .nav {
-  margin: 0 auto;
   padding-left: 0;
   list-style: none;
   text-align: center; }
   @media (min-width: 768px) {
-    /* line 7, E:/Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
+    /* line 6, ../Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
     .nav {
       display: flex;
       flex-direction: row;
-      justify-content: flex-end; } }
-  /* line 13, E:/Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
+      justify-content: space-between;
+      align-items: baseline; } }
+  /* line 13, ../Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
   .nav__item {
     border: 1px solid black;
     width: 100%;
     margin: 10px 0;
     padding: 20px 0;
     border-radius: 5px; }
-    /* line 19, E:/Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
+    /* line 25, ../Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
     .nav__item a {
       text-decoration: none;
       color: #858585; }
-    /* line 23, E:/Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
+    /* line 29, ../Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
     .nav__item:hover {
       background-color: #58e1c1; }
-      /* line 25, E:/Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
+      /* line 31, ../Github/techdegree/techdegree-project-04/scss/components/_navigation.scss */
       .nav__item:hover a {
         color: #fff;
         font-weight: bolder; }
 
-/* line 1, E:/Github/techdegree/techdegree-project-04/scss/components/_images.scss */
-.img--logo {
+/* line 1, ../Github/techdegree/techdegree-project-04/scss/components/_images.scss */
+.img--logo,
+.img--avatar, .img--frame {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: auto; }
 
-/* line 6, E:/Github/techdegree/techdegree-project-04/scss/components/_images.scss */
+/* line 11, ../Github/techdegree/techdegree-project-04/scss/components/_images.scss */
 .img--frame {
-  display: block;
-  margin: 0 auto; }
-
-/* line 11, E:/Github/techdegree/techdegree-project-04/scss/components/_images.scss */
-.img--avatar {
-  display: block;
-  margin: 0 auto; }
+  padding: 10px;
+  border: 1px solid grey; }
 
 /*# sourceMappingURL=styles.css.map */

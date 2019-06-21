@@ -1,14 +1,15 @@
-.img--logo {
-  display: block;
-  margin: 0 auto;
+%img {
+  @include center;
+  height: auto;
+}
+
+.img--logo,
+.img--avatar {
+  @extend %img;
 }
 
 .img--frame {
-  display: block;
-  margin: 0 auto;
-}
-
-.img--avatar {
-  display: block;
-  margin: 0 auto;
+  @extend %img;
+  padding: 10px;
+  border: 1px solid grey;
 }

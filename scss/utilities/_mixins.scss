@@ -5,3 +5,8 @@
   width: 100%;
   padding: 15px 0;
 }
+
+@mixin center {
+  display: block;
+  margin: 0 auto;
+}

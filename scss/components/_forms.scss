@@ -1,12 +1,17 @@
+.form {
+  margin: 0 auto;
+}
+
 .form__input {
+  display: block;
   border: none;
   border-bottom: 4px solid $color-accent;
-  width: 100%;
+  width: 95%;
   font-weight: bolder;
-  margin-top: 25px;
+  //margin-top: 25px;
+  margin: 20px auto 0 auto;
   padding-bottom: 10px;
   padding-left: 10px;
-  padding-right: 10px;
 }
 
 .form__label--hidden {
