@@ -1,6 +1,7 @@
 .container {
   font-family: $font-container;
   color: $color-base;
+  font-size: 14px;
   width: 90%;
   margin: 0 auto;
 }
@@ -14,6 +15,7 @@
 
 .headline--secondary {
   font-weight: 300;
+  font-size: 18px;
 }
 
 .link {

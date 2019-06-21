@@ -15,6 +15,7 @@
     padding: 1em 10px;
     display: flex;
     flex-direction: column;
+    border: 1px solid red;
 
     // NOTE: replace with media query mixin if aiming for exceeds
     @media (min-width: 768px) {
@@ -33,7 +34,13 @@
       // selector would be .grid__col--1
       &--#{$i} {
 
-        // base styles applied to all grid columns 
+        &.theme__colors {
+          @include btn;
+          background-color: map-get($theme-colors, $i);
+          padding-left: 15px;
+        }
+
+        // base styles applied to all grid columns
         // NOTE: could be converted to a placeholder, along with margin
         // from the  media query
         margin-top: 10px;
@@ -41,7 +48,10 @@
 
         // NOTE: replace with media query mixin if aiming for exceeds
         @media (min-width: 768px) {
-
+          &.centered {
+            text-align: center;
+            margin: 0 auto;
+          }
           // base stlyes applied to all grid columns
           margin-top: 0;
 
@@ -55,6 +65,7 @@
 
 // targets all elements with classes that begin with grid__col
 [class^=grid__col] {
+  border: 1px dashed green;
   // grid__col + grid__col, targets two sibling columns
   & + & {
 
@@ -63,6 +74,7 @@
 
       // add grid gutter
       margin-left: 10px;
+
     }
   }
 }

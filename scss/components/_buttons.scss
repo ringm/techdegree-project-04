@@ -1,0 +1,24 @@
+
+[class^=btn--] {
+  @include btn;
+  color: white;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+@each $btn in $btns {
+  .btn--#{$btn} {
+    background-color: map-get($btn-colors, $btn);
+  }
+}
+
+@media (min-width: 768px) {
+  .grid__col--12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    [class^=btn--] {
+      margin: 0 20px;
+    }
+  }
+}
