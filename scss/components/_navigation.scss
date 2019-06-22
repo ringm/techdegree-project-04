@@ -6,20 +6,17 @@
     & {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
-      align-items: baseline;
+      justify-content: space-around;
     }
   }
+  
   &__item {
-    border: 1px solid black;
-    width: 100%;
     margin: 10px 0;
     padding: 20px 0;
     border-radius: 5px;
     @media (min-width: 768px) {
       & {
-        //padding: 5px;
-        //margin: 0 10px;
+        padding: 10px 20px;
       }
     }
     a {
@@ -28,9 +25,11 @@
     }
     &:hover {
       background-color: $color-accent;
+      transition: .4s;
       & a {
         color: #fff;
-        font-weight: bolder;
+        font-weight: 700;
+        transition: .3s;
       }
     }
   }

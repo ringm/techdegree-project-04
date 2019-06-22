@@ -15,7 +15,7 @@
     padding: 1em 10px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    //border: 1px solid red;
 
     // NOTE: replace with media query mixin if aiming for exceeds
     @media (min-width: 768px) {
@@ -65,7 +65,7 @@
 
 // targets all elements with classes that begin with grid__col
 [class^=grid__col] {
-  border: 1px dashed green;
+  //border: 1px dashed green;
   // grid__col + grid__col, targets two sibling columns
   & + & {
 

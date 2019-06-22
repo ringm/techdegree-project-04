@@ -1,19 +1,16 @@
 .form {
-  margin: 0 auto;
-}
-
-.form__input {
-  display: block;
-  border: none;
-  border-bottom: 4px solid $color-accent;
-  width: 95%;
-  font-weight: bolder;
-  //margin-top: 25px;
-  margin: 20px auto 0 auto;
-  padding-bottom: 10px;
-  padding-left: 10px;
-}
-
-.form__label--hidden {
-  display: none;
+  @include center;
+  &__input {
+    display: block;
+    border: none;
+    border-bottom: 4px solid $color-accent;
+    width: 90%;
+    font-weight: 700;
+    margin: 20px auto 0 auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  &__label--hidden {
+    display: none;
+  }
 }

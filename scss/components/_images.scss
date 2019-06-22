@@ -1,15 +1,15 @@
-%img {
-  @include center;
-  height: auto;
+.grid__col--6 {
+  display: flex;
+  align-items: center;
 }
 
 .img--logo,
-.img--avatar {
+.img--avatar,
+.img--frame {
   @extend %img;
 }
 
 .img--frame {
-  @extend %img;
   padding: 10px;
   border: 1px solid grey;
 }

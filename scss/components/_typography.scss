@@ -1,35 +1,36 @@
 .container {
   font-family: $font-container;
   color: $color-base;
-  font-size: 14px;
-  width: 90%;
-  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 
 .headline--primary {
   color: $color-accent;
-  font-weight: bolder;
+  line-height: 1.2em;
+  font-weight: 700;
   padding-left: 20px;
-  padding-right: 60px;
 }
 
 .headline--secondary {
   font-weight: 300;
   margin: 20px 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .link {
   text-decoration: none;
   font-weight: bold;
-  color: #5adffc;
+  color: map-get($btn-colors, 'default');
 }
 
 .blockquote {
   font-size: 1.5em;
+  line-height: 1.5em;
   font-style: italic;
-  font-weight: lighter;
+  font-weight: 400;
   border-radius: 5px;
-  border-left: 10px solid $color-accent;
-  padding-left: 20px;
+  border-left: 8px solid $color-accent;
+  padding-left: 12px;
+  margin-left: 30px;
 }
