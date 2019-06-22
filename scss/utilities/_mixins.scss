@@ -9,3 +9,11 @@
   display: block;
   margin: 0 auto;
 }
+
+@mixin mq($break) {
+  @if $break == "desktop" {
+    @media (min-width: $break-dsktop) {
+    @content;
+    }
+  }
+}

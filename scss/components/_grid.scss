@@ -18,7 +18,7 @@
     //border: 1px solid red;
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
+    @include mq("desktop") {
       flex-direction: row;
     }
   }
@@ -47,17 +47,18 @@
         flex-basis: 100%;
 
         // NOTE: replace with media query mixin if aiming for exceeds
-        @media (min-width: 768px) {
+        @include mq("desktop") {
           &.centered {
             text-align: center;
             margin: 0 auto;
           }
-          // base stlyes applied to all grid columns
-          margin-top: 0;
-
-          // make column width a percentage of the column number / total columns
-          flex-basis: #{$i / 12 * 100 + "%"} ;
         }
+
+        // base stlyes applied to all grid columns
+        margin-top: 0;
+
+        // make column width a percentage of the column number / total columns
+        flex-basis: #{$i / 12 * 100 + "%"} ;
       }
     }
   }
@@ -70,7 +71,7 @@
   & + & {
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
+    @media (min-width: $break-dsktop) {
 
       // add grid gutter
       margin-left: 10px;

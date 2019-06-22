@@ -1,6 +1,7 @@
 .container {
-  font-family: $font-container;
-  color: $color-base;
+  font-family: $font-family--primary;
+  font-weight: $font-weight--regular;
+  color: $color-primary;
   font-size: 16px;
   line-height: 1.5em;
 }
@@ -8,19 +9,19 @@
 .headline--primary {
   color: $color-accent;
   line-height: 1.2em;
-  font-weight: 700;
+  font-weight: $font-weight--bold;
   padding-left: 20px;
 }
 
 .headline--secondary {
-  font-weight: 300;
+  font-weight: $font-weight--light;
   margin: 20px 0;
   font-size: 16px;
 }
 
 .link {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: $font-weight--bold;
   color: map-get($btn-colors, 'default');
 }
 
@@ -28,7 +29,6 @@
   font-size: 1.5em;
   line-height: 1.5em;
   font-style: italic;
-  font-weight: 400;
   border-radius: 5px;
   border-left: 8px solid $color-accent;
   padding-left: 12px;

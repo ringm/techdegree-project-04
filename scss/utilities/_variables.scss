@@ -1,17 +1,39 @@
+//Font Stacks
 
-$font-container: 'Lato', sans-serif;
-$color-base: #858585;
-$color-accent: #58e1c1;
+$font-url--google       : 'https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap';
+$font-family--primary   : 'Lato', Arial, sans-serif;
 
-$btns: ('default', 'success', 'error', 'warning', 'info');
+//Font Weights
+
+$font-weight--light     : 300;
+$font-weight--regular   : 400;
+$font-weight--bold      : 700;
+
+//Descriptive Base Colors
+
+$white          : #fff;
+$grey           : #858585;
+$turquoise      : #58e1c1;
+$malibu         : #51ddfc;
+
+//Color Usage
+
+$color-primary  : $grey;
+$color-accent   : $turquoise;
+
+//Button Colors
+
+$btns      : ('default', 'success', 'error', 'warning', 'info');
 
 $btn-colors: (
-  'default': #51ddfc,
+  'default': $malibu,
   'success': #63cc82,
     'error': #e4757a,
   'warning': #fd7856,
      'info': #927bc1,
 );
+
+//Theme Colors
 
 $theme-colors: (
   3: #deb2ee,
@@ -22,3 +44,12 @@ $theme-colors: (
   8: #fd9f85,
  12: #80e8d1
 );
+
+//Text
+
+$base__font--size: 16px;
+$base__line: 24px;
+
+$max-width: 960px;
+
+$break-dsktop: 768px;
