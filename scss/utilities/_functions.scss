@@ -9,3 +9,13 @@
 @function em($target, $context: $base__font--size) {
   @return ($target / $context) *1em;
 }
+
+//Asign background colors to buttons according to their classes
+
+@mixin bg-colors($map) {
+  @each $theme, $color in $map {
+    &--#{$theme} {
+      background-color: $color;
+    }
+  }
+}

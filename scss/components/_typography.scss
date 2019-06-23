@@ -2,8 +2,8 @@
   font-family: $font-family--primary;
   font-weight: $font-weight--regular;
   color: $color-primary;
-  font-size: 16px;
-  line-height: 1.5em;
+  font-size: em(16px);
+  line-height: em(24px);
 }
 
 .headline--primary {
@@ -16,7 +16,7 @@
 .headline--secondary {
   font-weight: $font-weight--light;
   margin: 20px 0;
-  font-size: 16px;
+  font-size: em(16px);
 }
 
 .link {
@@ -26,11 +26,15 @@
 }
 
 .blockquote {
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: em(24px);;
+  line-height: em(22px);
   font-style: italic;
   border-radius: 5px;
   border-left: 8px solid $color-accent;
   padding-left: 12px;
   margin-left: 30px;
+}
+
+[class^=btn--] {
+  font-weight: $font-weight--bold;
 }
