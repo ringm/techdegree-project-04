@@ -15,7 +15,6 @@
     padding: 1em 10px;
     display: flex;
     flex-direction: column;
-    //border: 1px solid red;
 
     // NOTE: replace with media query mixin if aiming for exceeds
     @include mq("desktop") {
@@ -35,7 +34,7 @@
       &--#{$i} {
 
         &.theme__colors {
-          @include btn;
+          @extend %btn;
           background-color: map-get($theme-colors, $i);
           padding-left: 15px;
         }
@@ -43,8 +42,8 @@
         // base styles applied to all grid columns
         // NOTE: could be converted to a placeholder, along with margin
         // from the  media query
-        margin-top: 10px;
-        flex-basis: 100%;
+
+        @extend %g-col;
 
         // NOTE: replace with media query mixin if aiming for exceeds
         @include mq("desktop") {
@@ -53,9 +52,6 @@
             margin: 0 auto;
           }
         }
-
-        // base stlyes applied to all grid columns
-        margin-top: 0;
 
         // make column width a percentage of the column number / total columns
         flex-basis: #{$i / 12 * 100 + "%"} ;
@@ -66,7 +62,6 @@
 
 // targets all elements with classes that begin with grid__col
 [class^=grid__col] {
-  //border: 1px dashed green;
   // grid__col + grid__col, targets two sibling columns
   & + & {
 

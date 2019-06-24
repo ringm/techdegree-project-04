@@ -1,28 +1,23 @@
 //Font Stacks
-
 $font-url--google       : 'https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap';
 $font-family--primary   : 'Lato', Arial, sans-serif;
 
 //Font Weights
-
 $font-weight--light     : 300;
 $font-weight--regular   : 400;
 $font-weight--bold      : 700;
 
 //Descriptive Base Colors
-
 $white          : #fff;
 $grey           : #858585;
 $turquoise      : #58e1c1;
 
 
 //Color Usage
-
 $color-primary  : $grey;
 $color-accent   : $turquoise;
 
 //UI Colors
-
 $malibu                  : #51ddfc;
 $emerald                 : #63cc82;
 $sunglo                  : #e4757a;
@@ -37,7 +32,6 @@ $vivid-tangerine         : #fd9f85;
 $riptide                 : #80e8d1;
 
 //Button Color Map
-
 $btn-colors: (
   'default': $malibu,
   'success': $emerald,
@@ -47,7 +41,6 @@ $btn-colors: (
 );
 
 //Theme Color Map
-
 $theme-colors: (
   3: $french-lilac,
   4: $anakiwa,
@@ -58,8 +51,10 @@ $theme-colors: (
  12: $riptide
 );
 
-//Text
+//IMG types
+$img: ('logo','avatar', 'frame');
 
+//Text
 $base__font--size: 16px;
 $base__line: 24px;
 
@@ -67,5 +62,4 @@ $base__line: 24px;
 $max-width: 960px;
 
 //Media Query
-
 $break-dsktop: 768px;

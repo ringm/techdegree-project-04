@@ -3,13 +3,14 @@
   align-items: center;
 }
 
-.img--logo,
-.img--avatar,
-.img--frame {
-  @extend %img;
-}
-
-.img--frame {
-  padding: 10px;
-  border: 1px solid grey;
+.img {
+  &--logo,
+  &--avatar,
+  &--frame {
+    @extend %img;
+  }
+  &--frame {
+    padding: 10px;
+    border: 1px solid grey;
+  }
 }

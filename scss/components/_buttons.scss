@@ -6,20 +6,22 @@
   display: flex;
   flex-direction: column;
   @include mq("desktop") {
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
 }
 
 [class^=btn--] {
-  @include btn;
-  width: 100%;
+  @extend %btn;
   color: white;
-  text-transform: uppercase;
-  margin: 20px 0;
+  margin: 10px 0;
   @include mq("desktop") {
     padding: 10px 40px;
     width: auto;
   }
+}
+
+[type="submit"] {
+  width: 100%;
+  margin-top: 20px;
 }
