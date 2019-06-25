@@ -17,7 +17,7 @@
     flex-direction: column;
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @include mq("desktop") {
+    @include mq {
       flex-direction: row;
     }
   }
@@ -46,7 +46,7 @@
         @extend %g-col;
 
         // NOTE: replace with media query mixin if aiming for exceeds
-        @include mq("desktop") {
+        @include mq {
           &.centered {
             text-align: center;
             margin: 0 auto;
@@ -66,7 +66,7 @@
   & + & {
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: $break-dsktop) {
+    @include mq {
 
       // add grid gutter
       margin-left: 10px;

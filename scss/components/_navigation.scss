@@ -2,7 +2,7 @@
   padding-left: 0;
   list-style: none;
   text-align: center;
-  @include mq("desktop") {
+  @include mq {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -12,7 +12,7 @@
     margin: 10px 0;
     padding: 20px 0;
     border-radius: 5px;
-    @include mq("desktop") {
+    @include mq {
       padding: 10px 20px;
     }
     a {

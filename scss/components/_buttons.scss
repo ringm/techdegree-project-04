@@ -5,7 +5,7 @@
 .grid__col--12 {
   display: flex;
   flex-direction: column;
-  @include mq("desktop") {
+  @include mq {
     flex-direction: row;
     justify-content: space-around;
   }
@@ -15,7 +15,7 @@
   @extend %btn;
   color: white;
   margin: 10px 0;
-  @include mq("desktop") {
+  @include mq {
     padding: 10px 40px;
     width: auto;
   }
