@@ -625,17 +625,12 @@ p {
 .btn--info {
   background-color: #927bc1; }
 
-/* line 5, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
-.grid__col--12 {
-  display: flex;
-  flex-direction: column; }
-  @media (min-width: 768px) {
-    /* line 5, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
-    .grid__col--12 {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around; } }
-
+/*.grid__col--12 {
+  @include flexy ($dir: column);
+  @include mq {
+    @include flexy ($dir: row, $jus: space-around);
+  }
+}*/
 /* line 12, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
 [class^=btn--] {
   color: white;
@@ -644,9 +639,11 @@ p {
     /* line 12, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
     [class^=btn--] {
       padding: 10px 40px;
-      width: auto; } }
+      display: inline-block;
+      width: auto;
+      margin-left: 5%; } }
 
-/* line 22, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
+/* line 24, ../Github/techdegree/techdegree-project-04/scss/components/_buttons.scss */
 [type="submit"] {
   width: 100%;
   margin-top: 20px; }

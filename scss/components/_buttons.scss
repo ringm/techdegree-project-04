@@ -2,12 +2,12 @@
   @include bg-colors($btn-colors);
 }
 
-.grid__col--12 {
+/*.grid__col--12 {
   @include flexy ($dir: column);
   @include mq {
     @include flexy ($dir: row, $jus: space-around);
   }
-}
+}*/
 
 [class^=btn--] {
   @extend %btn;
@@ -15,7 +15,9 @@
   margin: 10px 0;
   @include mq {
     padding: 10px 40px;
+    display: inline-block;
     width: auto;
+    margin-left: 5%;
   }
 }
 
