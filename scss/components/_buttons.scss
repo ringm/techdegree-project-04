@@ -3,11 +3,9 @@
 }
 
 .grid__col--12 {
-  display: flex;
-  flex-direction: column;
+  @include flexy ($dir: column);
   @include mq {
-    flex-direction: row;
-    justify-content: space-around;
+    @include flexy ($dir: row, $jus: space-around);
   }
 }
 

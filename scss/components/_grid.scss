@@ -6,6 +6,11 @@
 // but additional styling may be needed
 // **********************************************
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: $max-width;
+}
 
 // grid base class
 .grid {
@@ -13,8 +18,7 @@
   // .grid__row
   &__row {
     padding: 1em 10px;
-    display: flex;
-    flex-direction: column;
+    @include flexy ($dir: column);
 
     // NOTE: replace with media query mixin if aiming for exceeds
     @include mq {
@@ -69,7 +73,7 @@
     @include mq {
 
       // add grid gutter
-      margin-left: 10px;
+      margin-left: 25px;
 
     }
   }

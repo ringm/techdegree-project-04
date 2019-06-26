@@ -2,8 +2,17 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 90%;
-  margin: 0 auto;
-  max-width: $max-width;
+ul {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: em(16px);
+  line-height: em(24px);
 }

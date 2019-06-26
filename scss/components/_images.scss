@@ -1,6 +1,5 @@
 .grid__col--6 {
-  display: flex;
-  align-items: center;
+  @include flexy ($ali: center);
 }
 
 .img {
