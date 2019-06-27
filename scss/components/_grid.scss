@@ -64,6 +64,13 @@
   }
 }
 
+.grid__col--12 {
+  @include flexy ($dir: column);
+  @include mq {
+    @include flexy ($dir: row, $jus: space-around);
+  }
+}
+
 // targets all elements with classes that begin with grid__col
 [class^=grid__col] {
   // grid__col + grid__col, targets two sibling columns
